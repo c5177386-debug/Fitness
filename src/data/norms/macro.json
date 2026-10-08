@@ -1,0 +1,33 @@
+{
+  "metric": "macroCalories",
+  "unit": "kcal",
+  "categories": ["veryLow", "low", "average", "high", "veryHigh"],
+  "percentileAnchors": [3, 20, 50, 80, 97, 99],
+  "multiples": [-1.88, -0.84, 0, 0.84, 1.88],
+  "sigma": 300,
+  "axisExtent": 2.5,
+  "sources": [
+    {
+      "id": "iom",
+      "name": "Institute of Medicine (National Academy of Medicine) — Dietary Reference Intakes for Energy",
+      "shortName": "IOM/NAM Dietary Reference Intakes for Energy",
+      "year": 2005,
+      "url": "https://nap.nationalacademies.org/catalog/10490/dietary-reference-intakes-for-energy-carbohydrate-fiber-fat-fatty-acids-cholesterol-protein-and-amino-acids"
+    },
+    {
+      "id": "issn",
+      "name": "Jäger R. et al. — International Society of Sports Nutrition Position Stand: protein and exercise",
+      "shortName": "ISSN Position Stand: protein and exercise",
+      "year": 2017,
+      "url": "https://doi.org/10.1186/s12970-017-0177-8"
+    }
+  ],
+  "ageBands": [
+    { "id": "18-29", "min": 18, "max": 29, "centers": { "female": 2400, "male": 2800 } },
+    { "id": "30-39", "min": 30, "max": 39, "centers": { "female": 2300, "male": 2700 } },
+    { "id": "40-49", "min": 40, "max": 49, "centers": { "female": 2200, "male": 2550 } },
+    { "id": "50-59", "min": 50, "max": 59, "centers": { "female": 2100, "male": 2450 } },
+    { "id": "60-69", "min": 60, "max": 69, "centers": { "female": 2000, "male": 2300 } },
+    { "id": "70+", "min": 70, "max": null, "centers": { "female": 1900, "male": 2200 } }
+  ]
+}

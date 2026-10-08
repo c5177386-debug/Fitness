@@ -1,0 +1,3 @@
+# Netlify / Cloudflare Pages redirect rules
+# Bare root → root-locale home (308 permanent; force even if a file exists)
+/        /zh-CN        308!

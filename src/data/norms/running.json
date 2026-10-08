@@ -1,0 +1,31 @@
+{
+  "metric": "runningPace",
+  "unit": "sec/km",
+  "categories": ["elite", "advanced", "intermediate", "novice", "beginner"],
+  "percentileAnchors": [98, 90, 70, 40, 20, 3],
+  "axis": { "min": 180, "max": 540 },
+  "density": {
+    "male": { "center": 330, "sigma": 72 },
+    "female": { "center": 360, "sigma": 72 }
+  },
+  "thresholds": {
+    "male": [180, 240, 290, 350, 420],
+    "female": [180, 270, 320, 380, 450]
+  },
+  "sources": [
+    {
+      "id": "running-level",
+      "name": "Running Level — Running Standards by Age, Sex and Ability",
+      "shortName": "Running Level standards",
+      "year": 2023,
+      "url": "https://runninglevel.com/running-standards"
+    },
+    {
+      "id": "runners-connect",
+      "name": "Runners Connect — Average 5K, 10K, half and marathon pace by ability level",
+      "shortName": "Runners Connect pace standards",
+      "year": 2022,
+      "url": "https://runnersconnect.net/"
+    }
+  ]
+}

@@ -1,0 +1,970 @@
+{
+  "common": {
+    "brand": "Fitness Calculators",
+    "language": "Language",
+    "nav": {
+      "allTools": "All Tools",
+      "oneRM": "1RM",
+      "tdee": "TDEE",
+      "water": "Water Intake"
+    },
+    "actions": {
+      "calculate1RM": "Calculate My 1RM",
+      "calculateTDEE": "Calculate My TDEE",
+      "calculateWater": "Calculate My Water Needs",
+      "calculateMacros": "Calculate My Macros",
+      "calculateBodyFat": "Calculate My Body Fat",
+      "calculatePace": "Calculate My Pace",
+      "calculateFasting": "Build My Schedule",
+      "calculateHeartRate": "Calculate My Zones"
+    },
+    "resultsPlaceholder": "Enter your values and click Calculate to see your results.",
+    "relatedTitle": "Related Calculators",
+    "faqTitle": "Frequently Asked Questions",
+    "disclaimer": "Disclaimer: This tool is for informational purposes only and does not constitute medical advice. Consult a qualified healthcare professional before making changes to your training or nutrition program.",
+    "footer": {
+      "tagline": "Science-based fitness tools for lifters, runners, and health enthusiasts. All calculators use peer-reviewed formulas and are free to use.",
+      "allTools": "All Tools",
+      "legal": "Company",
+      "about": "About Us",
+      "privacy": "Privacy Policy"
+    },
+    "notFound": {
+      "title": "Page Not Found",
+      "desc": "The page you were looking for doesn't exist or has been moved.",
+      "back": "Back to Home"
+    },
+    "history": {
+      "title": "History",
+      "clear": "Clear all",
+      "restore": "Restore",
+      "delete": "Delete",
+      "confirmClear": "Clear all history for this tool?",
+      "confirmDelete": "Delete this record?",
+      "yes": "Confirm",
+      "no": "Cancel",
+      "showAll": "Show all ({count})",
+      "showLess": "Show latest only"
+    }
+  },
+  "home": {
+    "heroTitle": "Free Fitness Calculators",
+    "heroSubtitle": "Science-based tools for lifters, runners, and health enthusiasts. Accurate formulas, instant results, completely free.",
+    "popular": "Popular Tools",
+    "useCalculator": "Use Calculator",
+    "features": [
+      {
+        "icon": "🔬",
+        "title": "Science-Based",
+        "desc": "Uses peer-reviewed formulas from exercise science research."
+      },
+      {
+        "icon": "📱",
+        "title": "Mobile-Friendly",
+        "desc": "Works perfectly on any device. Calculate on the go."
+      },
+      {
+        "icon": "💯",
+        "title": "100% Free",
+        "desc": "No sign-up, no ads in tools, no premium lock. Ever."
+      }
+    ]
+  },
+  "toolsMeta": {
+    "one-rep-max-calculator": {
+      "title": "One Rep Max Calculator",
+      "desc": "Calculate your 1RM using Epley and Brzycki formulas. Find your true maximum strength."
+    },
+    "tdee-calculator": {
+      "title": "TDEE Calculator",
+      "desc": "Estimate your Total Daily Energy Expenditure using Mifflin-St Jeor. Know how many calories you burn daily."
+    },
+    "water-intake-calculator": {
+      "title": "Water Intake Calculator",
+      "desc": "Find your daily water intake needs based on weight, exercise, and climate. Stay properly hydrated."
+    },
+    "macro-calculator": {
+      "title": "Macro Calculator",
+      "desc": "Calculate your ideal macronutrient breakdown based on your goals."
+    },
+    "body-fat-calculator": {
+      "title": "Body Fat Calculator",
+      "desc": "Estimate your body fat percentage using the US Navy method and BMI comparison."
+    },
+    "running-pace-calculator": {
+      "title": "Running Pace Calculator",
+      "desc": "Calculate your pace, finish time, and splits for any race distance."
+    },
+    "intermittent-fasting-calculator": {
+      "title": "Intermittent Fasting Calculator",
+      "desc": "Build a daily fasting schedule matched to your wake time and method."
+    },
+    "target-heart-rate-calculator": {
+      "title": "Target Heart Rate Calculator",
+      "desc": "Calculate your five training heart-rate zones with the Karvonen method."
+    }
+  },
+  "oneRM": {
+    "meta": {
+      "title": "One Rep Max Calculator — Free one rep max calculator Online",
+      "description": "Calculate your one rep max (1RM) using Epley and Brzycki formulas. Find your true maximum strength."
+    },
+    "pageTitle": "Free Online One Rep Max Calculator",
+    "pageIntro": "Calculate your one rep max (1RM) using Epley and Brzycki formulas. Find your true maximum strength.",
+    "form": {
+      "cardTitle": "Enter Your Working Set",
+      "weight": "Weight Lifted",
+      "weightPlaceholder": "e.g. 80",
+      "reps": "Number of Reps",
+      "repsPlaceholder": "e.g. 5"
+    },
+    "errors": {
+      "weight": "Please enter a valid weight",
+      "reps": "Please enter valid reps (1-50)",
+      "maxReps": "Max 50 reps allowed"
+    },
+    "result": {
+      "title": "Your Estimated 1RM",
+      "average": "Average (Epley + Brzycki)",
+      "trainingWeights": "Recommended Training Weights",
+      "colReps": "Reps",
+      "colPercent": "% of 1RM",
+      "colWeight": "Weight"
+    },
+    "faq": [
+      {
+        "q": "What is a 1 rep max?",
+        "a": "Your 1 rep max (1RM) is the maximum amount of weight you can lift for one complete repetition of any exercise. It is the gold standard measure of muscular strength and is used to program training percentages."
+      },
+      {
+        "q": "Which 1RM formula is most accurate?",
+        "a": "Epley and Brzycki are the two most widely used formulas in strength sports. Epley tends to give slightly higher estimates, while Brzycki is more conservative. For most lifters, the average of both formulas provides the most reliable estimate."
+      },
+      {
+        "q": "Is it safe to test my true 1RM?",
+        "a": "Testing a true 1RM carries injury risk, especially for beginners. We recommend using a working set (3-10 reps) and estimating your 1RM using these formulas instead. Always warm up thoroughly and use spotters when testing heavy lifts."
+      },
+      {
+        "q": "How often should I test my 1RM?",
+        "a": "Most intermediate to advanced lifters test their 1RM every 6-12 weeks at the end of a training block. Testing too frequently leads to fatigue and doesn't give an accurate picture of your true strength."
+      },
+      {
+        "q": "What percentage of 1RM should I train at?",
+        "a": "It depends on your goal: Strength (85-95% of 1RM, 1-5 reps), Hypertrophy (70-85%, 6-12 reps), Endurance (50-70%, 12+ reps). Use the rep scheme outputs above to find your target weights."
+      }
+    ],
+    "content": {
+      "blocks": [
+        { "type": "h2", "text": "How We Calculate Your 1RM" },
+        { "type": "p", "text": "We use two of the most respected formulas in strength sports — Epley and Brzycki — and average them for the most reliable estimate. Neither formula is perfectly accurate for every lifter (biomechanics and muscle fiber distribution vary), but averaging them balances their strengths and weaknesses." },
+        { "type": "h3", "text": "Epley Formula (1985)" },
+        { "type": "p", "text": "Developed at the University of Nebraska, Epley is the industry standard. It excels in the 1-10 rep range where most strength training happens:" },
+        { "type": "formula", "text": "1RM = Weight × (1 + Reps ÷ 30)" },
+        { "type": "h3", "text": "Brzycki Formula (1993)" },
+        { "type": "p", "text": "Brzycki is more conservative, especially at higher rep counts, and is preferred by some powerlifting federations:" },
+        { "type": "formula", "text": "1RM = Weight × 36 ÷ (37 − Reps)" },
+        { "type": "h2", "text": "Real Training Example" },
+        { "type": "p", "text": "Let's say you estimated a squat 1RM of 140 kg. Here's how you'd build a 4-week strength block around that number:" },
+        {
+          "type": "table",
+          "headers": ["Week", "Focus", "Workout"],
+          "rows": [
+            ["1", "Accumulation", "98 kg × 8-10 reps × 3 sets (70%)"],
+            ["2", "Intensification", "112 kg × 5-6 reps × 4 sets (80%)"],
+            ["3", "Peak", "126 kg × 3 reps × 5 sets (90%)"],
+            ["4", "Deload", "84 kg × 10 reps × 2 sets (60%)"]
+          ]
+        },
+        { "type": "p", "text": "This is just one of many programming styles — but every effective program is built on a foundation of knowing your 1RM. The training percentages table above gives you the exact weights for any rep scheme you want to train." }
+      ]
+    }
+  },
+  "tdee": {
+    "meta": {
+      "title": "TDEE Calculator — Free tdee calculator Online",
+      "description": "Estimate your Total Daily Energy Expenditure using Mifflin-St Jeor. Know how many calories you burn daily."
+    },
+    "pageTitle": "Free Online TDEE Calculator",
+    "pageIntro": "Estimate your Total Daily Energy Expenditure using the Mifflin-St Jeor equation. Know how many calories you burn in a day.",
+    "form": {
+      "cardTitle": "Your Details",
+      "gender": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "age": "Age",
+      "agePlaceholder": "e.g. 30",
+      "weight": "Weight (kg)",
+      "weightPlaceholder": "e.g. 70",
+      "height": "Height (cm)",
+      "heightPlaceholder": "e.g. 175",
+      "activity": "Activity Level",
+      "activityOptions": [
+        "Sedentary — desk job, no intentional exercise",
+        "Lightly Active — 1-3 days/week of light exercise",
+        "Moderately Active — 3-5 days/week of moderate exercise",
+        "Very Active — 6-7 days/week of hard training",
+        "Extra Active — physical job + training 6+ days"
+      ],
+      "knowBodyFat": "I know my body fat % (more accurate)",
+      "hideBodyFat": "− Hide body fat",
+      "bodyFatPlaceholder": "e.g. 15"
+    },
+    "errors": {
+      "weight": "Enter a valid weight (kg)",
+      "height": "Enter a valid height (cm)",
+      "age": "Enter a valid age"
+    },
+    "result": {
+      "title": "Your Daily Calorie Needs",
+      "tdee": "TDEE",
+      "caloriesPerDay": "calories / day",
+      "bmr": "BMR",
+      "bmrHint": "Basal Metabolic Rate",
+      "activity": "Activity",
+      "multiplierHint": "Multiplier",
+      "goalTitle": "Calorie Targets by Goal",
+      "lose": "LOSE FAT",
+      "loseHint": "−500 kcal",
+      "maintain": "MAINTAIN",
+      "maintainHint": "Your TDEE",
+      "gain": "BUILD MUSCLE",
+      "gainHint": "+500 kcal",
+      "formulaMSJ": "Using Mifflin-St Jeor formula (most accurate when body composition is unknown).",
+      "formulaKM": "Using Katch-McArdle formula (body fat % provided — more accurate for lean individuals)."
+    },
+    "faq": [
+      {
+        "q": "What is TDEE?",
+        "a": "Total Daily Energy Expenditure (TDEE) is the total number of calories your body burns in a day. It includes your basal metabolic rate (BMR), physical activity, and the thermic effect of food. TDEE is the foundation of any nutrition plan."
+      },
+      {
+        "q": "Is the Mifflin-St Jeor formula accurate?",
+        "a": "Yes, Mifflin-St Jeor is considered the most accurate estimation formula by the Academy of Nutrition and Dietetics. When body composition data is available, the Katch-McArdle formula (used here when you provide body fat %) is even more precise."
+      },
+      {
+        "q": "How do I use my TDEE for fat loss?",
+        "a": "To lose fat, create a moderate calorie deficit of 300-500 calories below your TDEE. This is aggressive enough to lose weight steadily (0.5-1 lb per week) while minimizing muscle loss and metabolic adaptation."
+      },
+      {
+        "q": "Will my TDEE change as I lose weight?",
+        "a": "Yes. As you lose weight, your BMR decreases (less mass to maintain), and your calorie expenditure per activity drops. Recalculate your TDEE every 4-6 weeks for best results."
+      },
+      {
+        "q": "Should I eat back exercise calories?",
+        "a": "If your TDEE already accounts for your activity level (which this calculator does), you should NOT eat back exercise calories. Your calorie target already includes your training. Eating them back would erase your deficit."
+      }
+    ],
+    "content": {
+      "blocks": [
+        { "type": "h2", "text": "Understanding TDEE" },
+        { "type": "p", "text": "Total Daily Energy Expenditure is the single most important number for anyone tracking their weight. Every calorie you eat either fuels this expenditure or gets stored (as fat, glycogen, or muscle). If you consume exactly your TDEE, your weight stays the same. Eat less, you lose weight. Eat more, you gain weight." },
+        { "type": "h3", "text": "The Mifflin-St Jeor Formula" },
+        { "type": "p", "text": "This is the gold standard formula for estimating BMR. Developed in 2005 from data on nearly 400 study participants, it replaced the older Harris-Benedict equation which had been in use since 1918. The Academy of Nutrition and Dietetics now recommends it as the most accurate estimation available:" },
+        { "type": "formula", "text": "Men: BMR = 10×weight(kg) + 6.25×height(cm) − 5×age(yrs) + 5    |    Women: BMR = 10×weight(kg) + 6.25×height(cm) − 5×age(yrs) − 161" },
+        { "type": "h3", "text": "Activity Multipliers" },
+        { "type": "p", "text": "Once you have your BMR, multiply by your activity level to get TDEE. These multipliers come from decades of research using doubly-labeled water (the gold standard for actual calorie expenditure measurement):" },
+        {
+          "type": "table",
+          "headers": ["Activity Level", "Multiplier"],
+          "rows": [
+            ["Sedentary", "×1.2"],
+            ["Lightly Active", "×1.375"],
+            ["Moderately Active", "×1.55"],
+            ["Very Active", "×1.725"],
+            ["Extra Active", "×1.9"]
+          ]
+        },
+        { "type": "h2", "text": "How to Apply This to Your Diet" },
+        { "type": "p", "text": "Your TDEE gives you a starting point, not a prison sentence. Here's how to use it:" },
+        {
+          "type": "list",
+          "items": [
+            "Start at your target — If your goal is fat loss, begin eating 500 kcal below TDEE. For maintenance, hit your exact TDEE.",
+            "Track for 2-4 weeks — Weigh yourself daily and average weekly. Track calories in an app like MyFitnessPal or Cronometer.",
+            "Adjust based on results — If the scale isn't moving after 2 weeks at a consistent calorie level, reduce or increase by 200-300 kcal. Your TDEE was an estimate, and you now have real data.",
+            "Recalculate periodically — As you lose weight, your BMR and TDEE drop. Every 4-6 weeks, recalculate and adjust your targets."
+          ]
+        },
+        { "type": "p", "text": "Remember: TDEE is an estimate, not a measurement. Individual variation can be ±20% or more. The calculator is most useful when combined with actual food tracking and weight measurements over time." }
+      ]
+    }
+  },
+  "water": {
+    "meta": {
+      "title": "Water Intake Calculator — Free water intake calculator Online",
+      "description": "Find your daily water intake needs based on weight, exercise, and climate. Stay properly hydrated."
+    },
+    "pageTitle": "Free Online Water Intake Calculator",
+    "pageIntro": "Find out how much water you should drink every day, based on your body weight, exercise level, and climate.",
+    "form": {
+      "cardTitle": "Your Details",
+      "weight": "Weight (kg)",
+      "weightPlaceholder": "e.g. 70",
+      "exercise": "Daily Exercise (minutes)",
+      "exercisePlaceholder": "e.g. 30",
+      "climate": "Climate / Environment",
+      "climateOptions": [
+        "Normal / Temperate (20-25°C / 68-77°F)",
+        "Hot & Dry (28°C+ / 82°F+)",
+        "Hot & Humid (28°C+ with high humidity)"
+      ]
+    },
+    "errors": {
+      "weight": "Enter a valid weight",
+      "exercise": "Exercise should be 0-480 minutes"
+    },
+    "result": {
+      "title": "Your Daily Water Intake",
+      "dailyWater": "Daily Water",
+      "liters": "liters",
+      "howWeGot": "How We Got This Number",
+      "base": "Base requirement (33 ml/kg)",
+      "activity": "Exercise adjustment (+500 ml per 30 min)",
+      "climate": "Climate adjustment",
+      "total": "TOTAL"
+    },
+    "faq": [
+      {
+        "q": "How much water should I drink a day?",
+        "a": "Individual water needs vary based on body weight, activity level, climate, and health status. The Institute of Medicine recommends approximately 33ml per kg of body weight as a baseline, plus additional amounts for exercise and hot/humid conditions."
+      },
+      {
+        "q": "Does coffee count toward my daily water intake?",
+        "a": "Yes. While caffeine has a mild diuretic effect, regular caffeine consumers develop a tolerance, and studies show coffee contributes meaningfully to daily hydration. That said, water remains the healthiest choice."
+      },
+      {
+        "q": "How do I know if I'm dehydrated?",
+        "a": "Common signs of dehydration include dark yellow urine (aim for pale yellow), dry mouth and throat, fatigue, headaches, and reduced urine output. In mild cases, increasing water intake resolves these symptoms."
+      },
+      {
+        "q": "Should I drink water before, during, or after exercise?",
+        "a": "All three! Drink 16-20 oz 2-3 hours before exercise, sip water every 15-20 minutes during exercise, and replace lost fluids (16-24 oz per pound lost) after. For sessions over 60 minutes, consider electrolyte replacement."
+      },
+      {
+        "q": "Can I drink too much water?",
+        "a": "Yes, it is possible to overhydrate, leading to hyponatremia (low blood sodium). This is most common in endurance athletes drinking excessive amounts during long races. For most people, drinking when thirsty and stopping at a comfortable level is sufficient."
+      }
+    ],
+    "content": {
+      "blocks": [
+        { "type": "h2", "text": "How We Calculate Water Intake" },
+        { "type": "p", "text": "This calculator combines guidelines from the Institute of Medicine, NASM, and sports nutrition research to give you a science-based daily water target. Unlike the commonly cited \"8 cups a day\" advice (which is a reasonable minimum but not personalized), our formula accounts for the three biggest factors that actually determine your needs:" },
+        { "type": "h3", "text": "1. Body Weight (33 ml per kg)" },
+        { "type": "p", "text": "Your body weight determines your baseline water requirement because every cell, organ, and system depends on water. The 33 ml/kg figure is the average total body water turnover rate — meaning that's approximately how much water you lose and need to replace each day just through basic bodily functions like breathing, sweating, and urination." },
+        { "type": "h3", "text": "2. Physical Activity (+500 ml per 30 min)" },
+        { "type": "p", "text": "Exercise dramatically increases water loss through sweat. A hard 60-minute session can make you lose 500-1500 ml of water through perspiration alone. We add 500 ml per 30 minutes of moderate-to-vigorous exercise as a baseline — if you sweat heavily or do intense endurance training, you may need more." },
+        { "type": "h3", "text": "3. Climate (+500-750 ml)" },
+        { "type": "p", "text": "Hot and humid environments increase sweating even at rest. In humid conditions, your sweat doesn't evaporate as effectively, so your body produces more of it to cool itself. This adds a meaningful water requirement on top of your activity level." },
+        { "type": "h2", "text": "Practical Hydration Tips" },
+        { "type": "h3", "text": "Monitor Your Urine Color" },
+        { "type": "p", "text": "This is the quickest self-check. Aim for pale yellow (like lemonade). Dark yellow (like apple juice) means you're dehydrated. Clear water might mean you're drinking a bit too much — though this is rarely a problem for most people." },
+        { "type": "h3", "text": "Pre-Hydrate, Don't Catch Up" },
+        { "type": "p", "text": "Drinking large amounts of water in one sitting is inefficient — your kidneys can only process about 250 ml per hour. Instead, spread your intake throughout the day: a glass when you wake, small amounts every 1-2 hours, extra before and during training, and a final glass before bed." },
+        { "type": "h3", "text": "Hydration for Endurance Events" },
+        { "type": "p", "text": "If you're training or racing for 90 minutes or more, plain water isn't enough. You also lose electrolytes (sodium, potassium, magnesium) through sweat. For long sessions, use a sports drink or add a pinch of salt to your water. Weigh yourself before and after a workout — for every kg lost, drink 1 L of water to rehydrate." }
+      ]
+    }
+  },
+
+  "toolsIndex": {
+    "meta": {
+      "title": "All Fitness Calculators",
+      "description": "Explore every free fitness calculator: strength, calories, hydration, macros, body fat, pace, fasting, and heart rate zones."
+    },
+    "heroTitle": "All Fitness Calculators",
+    "heroSubtitle": "Eight free, science-based tools for training, nutrition, and health — pick one to start.",
+    "tools": {
+      "one-rep-max-calculator": { "title": "One Rep Max", "desc": "Estimate your 1RM with Epley & Brzycki, plus training weights." },
+      "tdee-calculator": { "title": "TDEE", "desc": "Your daily calorie burn and fat-loss or muscle-gain targets." },
+      "water-intake-calculator": { "title": "Water Intake", "desc": "Personalized daily water needs from weight, activity, climate." },
+      "macro-calculator": { "title": "Macros", "desc": "Protein, carbs, and fat grams for your goal and diet style." },
+      "body-fat-calculator": { "title": "Body Fat", "desc": "Navy circumference estimate with a BMI comparison." },
+      "running-pace-calculator": { "title": "Running Pace", "desc": "Pace, speed, finish time, and per-km splits." },
+      "intermittent-fasting-calculator": { "title": "Intermittent Fasting", "desc": "A daily schedule built around your wake time." },
+      "target-heart-rate-calculator": { "title": "Heart Rate Zones", "desc": "Five training zones via the Karvonen method." }
+    }
+  },
+
+  "macro": {
+    "meta": {
+      "title": "Macro Calculator — Free protein, carbs & fat calculator",
+      "description": "Calculate your ideal daily protein, carbs, and fat in grams based on your goal, activity level, and diet style."
+    },
+    "pageTitle": "Free Macro Calculator",
+    "pageIntro": "Turn your calorie target into exact grams of protein, carbs, and fat — for losing fat, maintaining, or building muscle.",
+    "form": {
+      "cardTitle": "Your Details & Goal",
+      "gender": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "age": "Age",
+      "agePlaceholder": "e.g. 30",
+      "weight": "Weight (kg)",
+      "weightPlaceholder": "e.g. 70",
+      "height": "Height (cm)",
+      "heightPlaceholder": "e.g. 175",
+      "activity": "Activity Level",
+      "activityOptions": [
+        "Sedentary — office job, little exercise",
+        "Lightly Active — 1-3 days/week",
+        "Moderately Active — 3-5 days/week",
+        "Very Active — 6-7 days/week",
+        "Extra Active — physical job + training"
+      ],
+      "goal": "Goal",
+      "goalLose": "Lose Fat",
+      "goalMaintain": "Maintain Weight",
+      "goalGain": "Build Muscle",
+      "dietStyle": "Diet Style",
+      "styleBalanced": "Balanced — standard split",
+      "styleLowCarb": "Low Carb — ~25% carbs",
+      "styleKeto": "Keto — ~5% carbs"
+    },
+    "errors": {
+      "age": "Enter a valid age",
+      "weight": "Enter a valid weight",
+      "height": "Enter a valid height"
+    },
+    "result": {
+      "title": "Your Daily Macro Targets",
+      "calories": "Calories",
+      "protein": "Protein",
+      "carbs": "Carbs",
+      "fat": "Fat",
+      "grams": "g",
+      "proteinPerKg": "Protein: {grams} g per kg of body weight"
+    },
+    "faq": [
+      { "q": "How are macros calculated?", "a": "We estimate TDEE, set calories by your goal (TDEE −500 for fat loss, +500 for muscle gain), then split the calories into protein, carbs, and fat. Protein is set at 1.7-2.0 grams per kg of body weight per the ISSN, fat at 0.8 g/kg, and carbs fill the remaining calories." },
+      { "q": "How much protein do I really need?", "a": "Research on trained people consistently supports 1.6-2.2 g per kg of body weight — about 2.0 g/kg while dieting, when protein protects muscle, and roughly 1.7 g/kg at maintenance. Eating far above this range adds calories but no proven muscle benefit." },
+      { "q": "What's the difference between balanced, low-carb, and keto?", "a": "Balanced fills most remaining calories with carbs. Low-carb caps carbs at about 25% of calories and adds the rest as fat. Keto drops carbs to roughly 5% (typically under 50 g a day), with most calories from fat. The best style is the one you can follow consistently — all produce the same results at equal calories." },
+      { "q": "Should I track raw or cooked weights?", "a": "Food tracking apps use consistent per-100 g values; meat and rice lose water while cooking, so 100 g raw and 100 g cooked are very different. Pick one convention (most people log cooked meat and dry grains) and keep it identical every day." },
+      { "q": "Can I eat junk food and still hit my macros?", "a": "Technically yes — body weight follows calories, and flexible dieters often include treats. In practice, highly processed foods are calorie-dense and less filling, which makes protein and fiber targets harder to hit. A practical rule is 80-90% whole foods, 10-20% whatever you enjoy." }
+    ],
+    "content": {
+      "blocks": [
+        { "type": "h2", "text": "How the Macro Split Works" },
+        { "type": "p", "text": "Macronutrients — protein, carbs, and fat — are the three components of every calorie you eat. This calculator starts from your TDEE, adjusts calories for your goal, and divides them into a gram target for each macro, along with the percentage of calories it contributes." },
+        { "type": "h3", "text": "Protein First" },
+        { "type": "p", "text": "Protein is set first because it preserves muscle while dieting, supports recovery, and is the most filling macro. We use 2.0 g/kg for fat loss, 1.8 g/kg for muscle gain, and 1.7 g/kg at maintenance — all inside the 1.6-2.2 g/kg evidence range. Every gram of protein provides 4 calories." },
+        { "type": "h3", "text": "Where Fats and Carbs Fit" },
+        { "type": "p", "text": "Fat gets a floor of 0.8 g/kg because dietary fats are required for hormone production, including testosterone. The remaining calories go to carbs, which fuel high-intensity training. Fat provides 9 calories per gram; protein and carbs provide 4." },
+        { "type": "formula", "text": "Example: 80 kg, maintain, 2,759 kcal → protein 136 g (20%), fat 64 g (21%), carbs 410 g (59%)" },
+        { "type": "p", "text": "The low-carb and keto styles change this order: carbs are capped first, and fat fills the remaining calories. Switch styles in the form and the grams update immediately." },
+        { "type": "h2", "text": "Using Your Numbers" },
+        { "type": "p", "text": "Macro targets work best paired with 2-4 weeks of consistent tracking. Weigh your food for the first week — eyeballing portions is typically off by 30% or more — then adjust from real results." },
+        { "type": "list", "items": [
+          "Hit protein within ±10 g daily; protein is the macro that matters most for body composition.",
+          "Keep fiber near 25-35 g per day from vegetables, fruit, and whole grains.",
+          "Carbs can be higher on training days and lower on rest days, as long as weekly totals stay on target.",
+          "If weight stalls for 2 weeks, drop or add 200 kcal — usually from carbs or fats, not protein."
+        ] },
+        { "type": "p", "text": "Finally, remember that macro grams are targets, not legal limits. Consistent adherence to slightly imperfect numbers beats perfection abandoned after three days." }
+      ]
+    }
+  },
+
+  "bodyFat": {
+    "meta": {
+      "title": "Body Fat Calculator — US Navy method & BMI",
+      "description": "Estimate your body fat percentage with the US Navy circumference formula, plus a Deurenberg BMI comparison and category."
+    },
+    "pageTitle": "Free Body Fat Calculator",
+    "pageIntro": "Estimate your body fat percentage with a tape measure — the US Navy circumference method, compared against a BMI-based estimate.",
+    "form": {
+      "cardTitle": "Measurements",
+      "gender": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "age": "Age",
+      "agePlaceholder": "e.g. 30",
+      "height": "Height (cm)",
+      "heightPlaceholder": "e.g. 180",
+      "weight": "Weight (kg)",
+      "weightPlaceholder": "e.g. 80",
+      "neck": "Neck Circumference (cm)",
+      "neckPlaceholder": "e.g. 38",
+      "waist": "Waist Circumference (cm)",
+      "waistPlaceholder": "e.g. 85",
+      "hip": "Hip Circumference (cm)",
+      "hipPlaceholder": "e.g. 95"
+    },
+    "errors": {
+      "age": "Enter a valid age",
+      "weight": "Enter a valid weight",
+      "height": "Enter a valid height",
+      "neck": "Enter a valid neck measurement",
+      "waist": "Enter a valid waist measurement",
+      "hip": "Hip measurement is required for women"
+    },
+    "result": {
+      "title": "Your Body Fat Estimates",
+      "navy": "Navy Method",
+      "bmi": "BMI",
+      "deurenberg": "BMI Estimate",
+      "cat_essential": "Essential",
+      "cat_athletes": "Athletic",
+      "cat_fitness": "Fitness",
+      "cat_average": "Average",
+      "cat_obese": "Obese"
+    },
+    "faq": [
+      { "q": "How accurate is the Navy body fat formula?", "a": "Against underwater weighing, the circumference method typically lands within 3-4% of the lab value — less precise than a DEXA scan, but good enough to track change over time. Consistency matters more than precision: measure the same spots, at the same time of day, every time." },
+      { "q": "Why does the BMI estimate differ from the Navy result?", "a": "BMI uses only weight and height, so muscular people read as heavier and often score higher. The Navy method uses circumference ratios, which reflect where that weight sits. A gap between the two is normal; large gaps usually mean high muscle mass." },
+      { "q": "Where exactly do I measure?", "a": "Neck: below the larynx, sloping slightly down at the front. Waist: horizontally at the navel (men) or at the narrowest point (women). Hip: at the widest point of the buttocks. Relax, exhale, and never pull the tape so tight it presses into skin." },
+      { "q": "What body fat percentage is healthy?", "a": "Per ACE ranges, men at 14-17% and women at 21-24% are in the fitness category; male athletes often sit at 6-13% and female athletes 14-20%. Very low body fat — under roughly 5% for men and 13% for women — is not sustainable or healthy long term." },
+      { "q": "Can I reduce fat in one area, like my stomach?", "a": "No — spot reduction has been tested repeatedly and doesn't work; the body mobilizes fat system-wide from a calorie deficit. Where you lose first is genetics and sex hormones. Training a muscle makes it larger and more visible once the fat over it reduces." }
+    ],
+    "content": {
+      "blocks": [
+        { "type": "h2", "text": "How the Navy Method Works" },
+        { "type": "p", "text": "Developed for the US Navy by Hodgdon and Beckett in 1984, the formula estimates body density from circumference ratios — the same sites that change most predictably as body fat rises and falls — then converts density to body fat percentage with the Siri equation." },
+        { "type": "h3", "text": "Taking the Measurements" },
+        { "type": "p", "text": "Men measure neck and waist; women also measure the hips. Measure over bare skin in the morning, with the tape horizontal and snug without compressing tissue. A single set of measurements takes about two minutes." },
+        { "type": "h3", "text": "The BMI Comparison" },
+        { "type": "p", "text": "We include a second estimate using the Deurenberg formula, which derives body fat from BMI, age, and sex. Because BMI can't tell muscle from fat, treat it as a cross-check, not the headline number." },
+        { "type": "formula", "text": "Deurenberg: body fat % = 1.2 × BMI + 0.23 × age − (10.8 if male) − 5.4" },
+        { "type": "p", "text": "Re-measure every 4-6 weeks rather than daily — circumference changes slowly, and hydration shifts readings by a centimeter or more during the day." },
+        { "type": "h2", "text": "Reading Your Result" },
+        { "type": "p", "text": "The result places your Navy estimate into one of five categories used by the American Council on Exercise. These ranges differ for men and women because essential fat — the minimum for hormonal and reproductive health — is naturally higher in women." },
+        { "type": "table", "headers": ["Category", "Men", "Women"], "rows": [
+          ["Essential", "2-5%", "10-13%"],
+          ["Athletic", "6-13%", "14-20%"],
+          ["Fitness", "14-17%", "21-24%"],
+          ["Average", "18-24%", "25-31%"],
+          ["Obese", "25%+", "32%+"]
+        ] },
+        { "type": "p", "text": "Remember that both methods are estimates. The most valuable use is a repeatable one: same tape, same sites, same conditions — showing the direction and rate of change." }
+      ]
+    }
+  },
+
+  "running": {
+    "meta": {
+      "title": "Running Pace Calculator — pace, speed & splits",
+      "description": "Calculate your running pace per km and mile, speed, finish time, and per-kilometer splits for any race distance."
+    },
+    "pageTitle": "Free Running Pace Calculator",
+    "pageIntro": "Enter a distance and finish time to get pace per km and mile, speed, and per-kilometer split markers.",
+    "form": {
+      "cardTitle": "Distance & Finish Time",
+      "preset": "Race Distance",
+      "preset5k": "5K",
+      "preset10k": "10K",
+      "presetHalf": "Half Marathon",
+      "presetFull": "Marathon",
+      "presetCustom": "Custom distance",
+      "distanceKm": "Custom Distance (km)",
+      "distancePlaceholder": "e.g. 7.5",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "minutesPlaceholder": "e.g. 50",
+      "seconds": "Seconds",
+      "secondsPlaceholder": "e.g. 00"
+    },
+    "errors": {
+      "distance": "Enter a valid distance",
+      "minutes": "Enter valid minutes",
+      "seconds": "Enter valid seconds"
+    },
+    "result": {
+      "title": "Your Pace",
+      "paceKm": "Pace per km",
+      "paceMile": "Pace per mile",
+      "kmh": "km/h",
+      "mph": "mph",
+      "finish": "Finish",
+      "splits": "Kilometer splits"
+    },
+    "faq": [
+      { "q": "What is a good running pace?", "a": "There is no universal number — a good pace is one you can sustain for the full distance. As rough reference points, recreational runners finish 5K around 25-35 minutes (5:00-7:00/km); age-graded tables give a fairer comparison that adjusts for age and sex." },
+      { "q": "Pace or speed — which should I follow?", "a": "Runners use pace (minutes per km) because effort plans are written per kilometer: easy runs, intervals, and race plans all prescribe pace. Speed in km/h is useful for treadmill sessions, where the belt speed is displayed the same way." },
+      { "q": "What are negative splits?", "a": "A negative split means running the second half slightly faster than the first — the gold standard for pacing a race. Start 10-15 seconds per km slower than target, let the body warm up, and aim to pass the halfway point feeling controlled." },
+      { "q": "Why is my GPS pace different on the track?", "a": "Consumer GPS error is typically 1-3% under tree cover or in cities with tall buildings, and instant pace jumps around between fixes. On a measured track, use the lap average; trust cumulative distance more than the live number." },
+      { "q": "How do I pace a marathon?", "a": "Start conservatively — most marathon pacing plans hold the same target pace through 30-35 km, then accept fatigue. Practice the exact pace for 60-90 minutes in long runs, and take gels on schedule; pacing failures late in a race are usually fueling or early-pace failures." }
+    ],
+    "content": {
+      "blocks": [
+        { "type": "h2", "text": "What Pace Really Tells You" },
+        { "type": "p", "text": "Pace converts a finish time into effort per distance, which is the language every training plan is written in. Given distance and time, this tool also produces speed in km/h and mph, plus the clock time you should see at each kilometer marker." },
+        { "type": "h3", "text": "Pace vs Speed" },
+        { "type": "p", "text": "Pace is minutes per kilometer — smaller is faster; speed is distance per hour — bigger is faster. The table below also converts pace per mile, useful for following plans from US sources." },
+        { "type": "h3", "text": "Splits and Race Strategy" },
+        { "type": "p", "text": "The split table is cumulative: it shows the clock time at which you should reach each kilometer. Hitting those markers early in a race prevents the classic mistake of starting fast and slowing dramatically in the final third." },
+        { "type": "formula", "text": "Conversions: 1 mile = 1.6093 km  ·  km/h = 3,600 ÷ seconds per km" },
+        { "type": "p", "text": "For even-pace races the splits increment by the same amount; negative-split plans add slightly less time per kilometer later, which you can simulate by comparing your target pace to your easy-run pace." },
+        { "type": "h2", "text": "Using Pace on Race Day" },
+        { "type": "p", "text": "Plan two numbers: an honest target pace proven in training, and a ceiling pace for the first 2 km that is deliberately slower. Adrenaline makes the opening mile feel easy even at an unsustainable effort." },
+        { "type": "list", "items": [
+          "Run the first kilometer 10-15 seconds slower than goal pace.",
+          "Check split markers every few kilometers instead of watching instant pace.",
+          "Keep effort, not just pace, constant on hills: slower up, faster down.",
+          "If you miss two consecutive split targets, settle into the new sustainable pace rather than forcing a correction."
+        ] },
+        { "type": "p", "text": "Re-run this calculator for each race distance and keep the split screenshot on your phone — it is the simplest race-day pacing plan available." }
+      ]
+    }
+  },
+
+  "fasting": {
+    "meta": {
+      "title": "Intermittent Fasting Calculator — schedule builder",
+      "description": "Build a daily intermittent fasting schedule matched to your wake time: 14:10, 16:8, 18:6, 20:4, or OMAD."
+    },
+    "pageTitle": "Intermittent Fasting Calculator",
+    "pageIntro": "Pick a fasting method and enter your wake time to build a daily schedule with exact eating-window times.",
+    "form": {
+      "cardTitle": "Method & Wake Time",
+      "method": "Fasting Method",
+      "method_14_10": "14:10 — beginner friendly",
+      "method_16_8": "16:8 — most popular",
+      "method_18_6": "18:6 — intermediate",
+      "method_20_4": "20:4 — advanced",
+      "method_omad": "OMAD — one meal a day",
+      "wakeHour": "Wake — Hour (0-23)",
+      "wakeMinute": "Wake — Minute (0-59)"
+    },
+    "errors": {
+      "wakeHour": "Enter a valid wake hour",
+      "wakeMinute": "Enter a valid wake minute"
+    },
+    "result": {
+      "title": "Your schedule: {fast} h fasting · {eat} h eating"
+    },
+    "events": {
+      "fastStart": "Fast begins",
+      "wake": "Wake up",
+      "eatStart": "Eating window opens",
+      "eatEnd": "Eating window closes",
+      "priorDay": "previous evening"
+    },
+    "faq": [
+      { "q": "Which fasting method should beginners start with?", "a": "Start with 14:10 for two weeks — a ten-hour window is social enough for most lifestyles — then move to 16:8 if it feels easy. The best protocol is the one you actually keep; method hierarchy matters far less than consistency." },
+      { "q": "Does fasting work better than regular dieting?", "a": "Controlled trials show similar fat loss when calories and protein are matched. Fasting helps some people eat less automatically by shrinking the window, and adherence tends to be simpler with fewer eating decisions — but it contains no metabolic magic." },
+      { "q": "Can I drink coffee or water during the fast?", "a": "Water, black coffee, and unsweetened tea contain negligible calories and are standard during fasting; electrolytes or a pinch of salt help if you feel light-headed. Avoid anything with calories, including milk and sweetened drinks, which end the fasting state." },
+      { "q": "Will fasting make me lose muscle?", "a": "Muscle loss is driven by inadequate calories and protein, not meal timing itself. Studies on resistance-trained people keeping protein at 1.6 g/kg or higher show muscle retained during fasting protocols — keep training and put protein inside the eating window." },
+      { "q": "Is intermittent fasting safe for everyone?", "a": "It is unsuitable for people with a history of eating disorders, pregnant or breastfeeding women, anyone under 18, and people with diabetes or blood-sugar medication, who should consult a clinician. Stop if you feel weak, faint, or unable to sleep." }
+    ],
+    "content": {
+      "blocks": [
+        { "type": "h2", "text": "How Time-Restricted Eating Works" },
+        { "type": "p", "text": "Intermittent fasting splits each day into a fasting window and an eating window. Methods are named for those hours — 16:8 means sixteen fasting, eight eating. This calculator places the windows around your actual wake time, producing clock times you can follow immediately." },
+        { "type": "h3", "text": "Choosing a Method" },
+        { "type": "p", "text": "Shorter eating windows tend to reduce total intake without explicit counting, but they are also harder socially. Start wider (14:10) and narrow only after the schedule feels routine." },
+        { "type": "h3", "text": "Inside the Eating Window" },
+        { "type": "p", "text": "The eating window is not permission to eat anything — results still depend on total calories, protein, and food quality. Aim for two to three balanced meals and place your largest meal around training." },
+        { "type": "formula", "text": "Wake 07:00 + 16:8 → eat 11:00–19:00, fast from 19:00 the prior evening" },
+        { "type": "p", "text": "If the generated window clashes with work or family meals, shift it: a later wake or a different method both change the times. Regenerate the schedule until it fits a normal week." },
+        { "type": "h2", "text": "Living With the Schedule" },
+        { "type": "p", "text": "The first week carries the most adjustment — hunger arrives from habit as much as need, and typically passes within days. Keep busy in the morning and hydrate on schedule." },
+        { "type": "list", "items": [
+          "Expect two to four weeks before the routine feels automatic.",
+          "Train as normal; schedule sessions toward the end of the fast or break the fast right after.",
+          "Keep protein high and prioritize whole foods in the eating window.",
+          "Use one or two free days per week if strict daily adherence is burning you out."
+        ] },
+        { "type": "p", "text": "Track weight, energy, and training performance after a month rather than daily — fasting is a structure for long-term consistency, judged on the same monthly timescale." }
+      ]
+    }
+  },
+
+  "heartRate": {
+    "meta": {
+      "title": "Target Heart Rate Calculator — Karvonen zones",
+      "description": "Calculate your five training heart-rate zones using the Karvonen method and Tanaka maximum heart rate."
+    },
+    "pageTitle": "Target Heart Rate Calculator",
+    "pageIntro": "Enter your age and resting heart rate to calculate five personal training zones with the Karvonen method.",
+    "form": {
+      "cardTitle": "Your Details",
+      "age": "Age",
+      "agePlaceholder": "e.g. 30",
+      "resting": "Resting Heart Rate (bpm)",
+      "restingPlaceholder": "e.g. 60"
+    },
+    "errors": {
+      "age": "Enter a valid age",
+      "resting": "Enter a valid resting heart rate"
+    },
+    "result": {
+      "title": "Your Heart Rate Zones",
+      "tanakaMax": "Max HR (Tanaka)",
+      "foxMax": "Max HR (Fox)",
+      "zones": "Training zones"
+    },
+    "zones": {
+      "z1": "Recovery",
+      "z2": "Aerobic",
+      "z3": "Tempo",
+      "z4": "Threshold",
+      "z5": "VO2 Max"
+    },
+    "faq": [
+      { "q": "Why do we use the Karvonen method?", "a": "Simple percentage-of-max formulas ignore resting heart rate, so two people of the same age get the same zones despite different fitness. Karvonen uses heart-rate reserve (max minus resting), producing personal zones — a well-trained athlete with a low resting HR gets appropriately faster targets." },
+      { "q": "Is 220 minus age accurate?", "a": "The Fox formula is simple but has a large standard error of 10-15 beats and tends to underestimate max in older adults. We show the Tanaka formula (208 − 0.7 × age) as the primary estimate, validated against thousands of subjects, with Fox for comparison." },
+      { "q": "How do I measure resting heart rate?", "a": "Take it in bed after waking, before standing or caffeine: count beats for a full minute, or average three mornings. Resting HR drops with training — values of 45-60 are common in endurance athletes, but a rising resting HR over several days often signals fatigue or illness." },
+      { "q": "Which zone should I train in?", "a": "Most recreational runners get the best results from roughly 80% easy Z1-Z2 work and 20% harder Z3-Z5 sessions — the polarized split. Easy should feel genuinely easy; the training effect from zone 2 is built on accumulated time, not discomfort." },
+      { "q": "Why is my watch heart rate different from a chest strap?", "a": "Optical wrist sensors lag by several seconds during fast intensity changes and misread when the watch shifts on the wrist — fine for easy runs, less reliable for intervals. A chest strap measures the electrical signal directly and is the standard for precise zone work." }
+    ],
+    "content": {
+      "blocks": [
+        { "type": "h2", "text": "Why Heart Rate Zones Matter" },
+        { "type": "p", "text": "Heart rate is the most practical measure of exercise intensity: it reflects how hard the cardiovascular system is working in real time. Five zones divide the range from easy recovery to maximal effort, each producing different adaptations." },
+        { "type": "h3", "text": "The Karvonen Method" },
+        { "type": "p", "text": "The method calculates heart-rate reserve — maximum minus resting — and builds zones from percentages of that reserve added back to resting heart rate. This accounts for fitness, unlike a one-size-fits-all percentage of maximum." },
+        { "type": "h3", "text": "Maximum Heart Rate" },
+        { "type": "p", "text": "Maximum HR is estimated rather than guessed in a gym test. The primary estimate uses Tanaka; the older Fox formula is shown alongside, and differences of a few beats are expected and harmless for planning." },
+        { "type": "formula", "text": "Karvonen: target HR = resting + % × (max − resting)  ·  Tanaka max = 208 − 0.7 × age" },
+        { "type": "p", "text": "If you have a real maximum from an all-out graded test, use it: measured HR is the gold standard, and zones can be recalculated against it." },
+        { "type": "h2", "text": "Training by Zone" },
+        { "type": "p", "text": "Assign sessions to zones deliberately — easy days build the aerobic base and recover, while limited hard intervals raise threshold and VO2 max. Most common mistake is running all days in the middle zone, too hard to recover and too easy to stimulate adaptation." },
+        { "type": "table", "headers": ["Zone", "% HRR", "Typical use"], "rows": [
+          ["Recovery", "50-60%", "warm-ups, recovery runs"],
+          ["Aerobic", "60-70%", "long easy runs"],
+          ["Tempo", "70-80%", "sustained tempo efforts"],
+          ["Threshold", "80-90%", "interval threshold work"],
+          ["VO2 Max", "90-100%", "short hard intervals"]
+        ] },
+        { "type": "p", "text": "Heart rate responds to heat, altitude, caffeine, fatigue, and illness — if readings run 5-10 beats high for the same pace, judge the session by effort that day rather than forcing the prescribed zone." }
+      ]
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "About Us",
+      "description": "Fitness Calculators offers free, science-based fitness calculators built on documented formulas — Epley, Brzycki, Mifflin-St Jeor, the US Navy method and Karvonen."
+    },
+    "pageTitle": "About Fitness Calculators",
+    "lastUpdated": "Last updated: {date}",
+    "blocks": [
+      { "type": "h2", "text": "Our Mission" },
+      { "type": "p", "text": "Fitness Calculators provides free, fast, and privacy-respecting tools for lifters, runners, and anyone managing their health. Every calculator runs entirely in your browser — there is nothing to sign up for and nothing to install." },
+      { "type": "h2", "text": "The Formulas We Use" },
+      { "type": "p", "text": "We only implement well-documented, peer-reviewed or institutional formulas, and the calculation logic is shown on every tool page:" },
+      { "type": "list", "items": [
+        "One Rep Max — the Epley and Brzycki formulas, reported as their average.",
+        "TDEE & BMR — the Mifflin-St Jeor equation with standard activity multipliers.",
+        "Macros — calorie targets split using evidence-based protein ranges for each goal.",
+        "Body Fat — the U.S. Navy circumference method, with a BMI reference.",
+        "Heart Rate Zones — the Karvonen method using your resting heart rate.",
+        "Running Pace — distance and time relationships for pace, speed and splits."
+      ] },
+      { "type": "h2", "text": "How We Handle Your Data" },
+      { "type": "p", "text": "We do not collect personal information. The values you enter and your calculation history are stored only in your own browser through localStorage and never leave your device. See our Privacy Policy for details." },
+      { "type": "h2", "text": "Important Disclaimer" },
+      { "type": "note", "text": "All results are estimates for general informational and educational purposes only. They are not medical advice, diagnosis, or treatment and do not replace professional guidance. Always consult a qualified healthcare provider before changing your training, nutrition, or health routine." },
+      { "type": "h2", "text": "Contact" },
+      { "type": "p", "text": "Questions or feedback? Email us at {{email}}." }
+    ]
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy Policy",
+      "description": "How Fitness Calculators protects your privacy: no personal data collection, browser-only localStorage history, third-party advertising cookies, and your GDPR/CCPA rights."
+    },
+    "pageTitle": "Privacy Policy",
+    "lastUpdated": "Last updated: {date}",
+    "blocks": [
+      { "type": "p", "text": "This Privacy Policy explains what information Fitness Calculators (the “Site”) processes when you use our free calculator tools." },
+      { "type": "h2", "text": "Information We Collect" },
+      { "type": "p", "text": "We do not collect, store, or sell personal information. You do not need to register, and we never ask for your name, email address, or contact details to use any tool." },
+      { "type": "h2", "text": "Local Browser Storage (localStorage)" },
+      { "type": "p", "text": "When you run a calculation, your inputs and results are saved in your browser's localStorage under keys beginning with fitkit_history_, so your history remains after a page reload. This data:" },
+      { "type": "list", "items": [
+        "stays on your device and is never transmitted to us;",
+        "can be deleted at any time with the “Clear all” control on each tool, or by clearing your browser data."
+      ] },
+      { "type": "h2", "text": "Third-Party Advertising" },
+      { "type": "p", "text": "We may display ads served by third-party advertising companies, including Google AdSense. These companies may use cookies and similar technologies to serve ads relevant to your interests and to measure campaign performance. Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this and other websites." },
+      { "type": "list", "items": [
+        "You can opt out of personalized advertising through Google Ads Settings: https://www.google.com/settings/ads",
+        "Users in the EEA and UK can manage consent through the privacy choices shown with the ads.",
+        "Google's use of advertising cookies is described in its advertising policy: https://policies.google.com/technologies/ads"
+      ] },
+      { "type": "h2", "text": "Cookies" },
+      { "type": "p", "text": "The Site itself sets no tracking cookies. Any cookies present are placed by third-party advertisers and are governed by their own privacy policies." },
+      { "type": "h2", "text": "Analytics" },
+      { "type": "p", "text": "If privacy-friendly, aggregated analytics are introduced in the future, this policy will be updated before deployment." },
+      { "type": "h2", "text": "Your Rights (GDPR / CCPA)" },
+      { "type": "p", "text": "Under the GDPR, UK GDPR, and CCPA you have rights including access, correction, deletion, data portability, and the right to opt out of the sale of personal information. Because we hold no personal account or server-side data tied to you, most of this data simply does not exist on our systems. To exercise any right, or with any privacy question, contact us:" },
+      { "type": "list", "items": [
+        "Email: {{email}}",
+        "We aim to respond within 30 days."
+      ] },
+      { "type": "h2", "text": "Children's Privacy" },
+      { "type": "p", "text": "The Site is not directed to children under 16, and we do not knowingly collect information from them." },
+      { "type": "h2", "text": "Policy Changes" },
+      { "type": "p", "text": "Updates to this policy will be posted on this page with a revised date." }
+    ]
+  },
+  "percentile": {
+    "title": "You vs Your Peers",
+    "youAreHere": "You are here",
+    "sourceLabel": "Source:",
+    "badgeBF": "Better than {pct}% of {gender} aged {age}",
+    "badgeStrength": "Better than {pct}% of {gender} in your body-weight class",
+    "genderFemale": "women",
+    "genderMale": "men",
+    "cat_essential": "Essential fat",
+    "cat_athletes": "Athletes",
+    "cat_fitness": "Fitness",
+    "cat_average": "Average",
+    "cat_obese": "Obese",
+    "lvl_untrained": "Untrained",
+    "lvl_novice": "Novice",
+    "lvl_intermediate": "Intermediate",
+    "lvl_advanced": "Advanced",
+    "lvl_elite": "Elite",
+    "lift_squat": "Back squat",
+    "lift_bench": "Bench press",
+    "lift_deadlift": "Deadlift",
+    "chartXBF": "Body fat (%)",
+    "chartXStrength": "1RM ({unit})",
+    "chartY": "Share of population",
+    "ariaBF": "Body fat population histogram for {gender} aged {age}. Your value {value}% is in the {category} range, around the {pct}th percentile.",
+    "ariaStrength": "Strength standards population histogram for {gender} in your body-weight class. Your {lift} one-rep max of {value} {unit} is {category} level, around the {pct}th percentile.",
+    "tableBFTitle": "Body fat percentage ranges by age and sex (%)",
+    "tableStrengthTitle": "{lift} 1RM standards by body weight ({unit})",
+    "ageBandH": "Age",
+    "bwClassH": "Body weight ({unit})",
+    "profileIntro": "Optional: select your sex, the lift and enter your body weight to see how your 1RM compares.",
+    "profileGender": "Your sex",
+    "profileLift": "Lift",
+    "profileBw": "Your body weight ({unit})",
+    "selectPlaceholder": "Please select",
+    "needResult": "Run the calculator first, then complete your profile to see the comparison.",
+    "referenceTitle": "Full strength standards reference (all lifts, all body weights)",
+    "imageBFAlt": "Illustration comparing one person's body fat level with people in the same age group",
+    "imageCaptionBF": "Image pending: peer-comparison illustration",
+    "imageStrengthAlt": "Illustration of strength standards with lifters of different levels compared by body weight",
+    "imageCaptionStrength": "Image pending: strength standards illustration",
+    "explainBFTitle": "How to Read Your Body Fat Percentile",
+    "explainBF": [
+      "The chart above shows where your body fat percentage sits relative to adults of the same sex and age, modeled on large population surveys. Most adults cluster around the middle of the curve; relatively few carry an athlete's leanness or reach the obese range.",
+      "Each band has a precise meaning. Essential fat is the minimum required for hormone production, temperature regulation and organ protection — dropping below it is a health risk rather than an achievement. The Athletes band is typical of people who train seriously and carry little fat; Fitness reflects regular exercise and good conditioning; Average is statistically normal for the whole adult population, which includes many inactive people; Obese is associated with meaningfully higher cardiovascular and metabolic disease risk.",
+      "Use your percentile as context, not a verdict. Tape measurements carry a few points of error, hydration shifts the readings, and it is normal for the two methods on this page to disagree. Track trends over months alongside your energy levels, performance and waist measurement, and consult a healthcare professional before acting on the result."
+    ],
+    "explainStrengthTitle": "How to Read These Strength Standards",
+    "explainStrength": [
+      "The standards describe drug-free lifters using standard competition technique, compiled by Lon Kilgore. Most lifters sit in the middle of the distribution; only a small minority reach the advanced and elite bands.",
+      "Each level reflects both strength and training maturity. Untrained means you have not practiced the lift under coaching; Novice lifters improve nearly every session after a guided beginner phase; Intermediate lifters need structured periodization across multi-week cycles to keep progressing; Advanced lifters are competitive at regional or national level; Elite lifters rank among the very strongest in a federation for their body weight.",
+      "Standards are organized by body weight because heavier people tend to lift more in absolute terms. When your weight falls between two published classes, the thresholds are interpolated linearly. Limb lengths, technique, age and sex all influence the result, so treat the percentile as a training reference rather than a grade.",
+      "Re-test after each training block rather than chasing the number weekly. A 1RM estimated from multiple reps is approximate — what matters is consistent progress over time."
+    ],
+
+    "dragHint": "Press and drag the ball left or right to adjust the value",
+    "dragHintWater": "Drag the ball to change daily exercise — water updates live",
+    "dragHintRunning": "Drag the ball to change finish time — pace updates live",
+    "dragHintFasting": "Drag the ball to choose a method — the schedule updates live",
+    "moduleSex": "Your sex",
+    "waterSexH": "Sex",
+
+    "cat_veryLow": "Very Low",
+    "cat_low": "Low",
+    "cat_high": "High",
+    "cat_veryHigh": "Very High",
+
+    "run_elite": "Elite",
+    "run_advanced": "Advanced",
+    "run_intermediate": "Intermediate",
+    "run_novice": "Novice",
+    "run_beginner": "Beginner",
+
+    "fast_beginner": "Beginner",
+    "fast_popular": "Popular",
+    "fast_intermediate": "Intermediate",
+    "fast_advanced": "Advanced",
+    "fast_expert": "Expert",
+
+    "hr_athlete": "Athlete",
+    "hr_excellent": "Excellent",
+    "hr_good": "Good",
+    "hr_average": "Average",
+    "hr_high": "High",
+
+    "badgeTDEE": "Higher daily burn than {pct}% of {gender} aged {age}",
+    "badgeWater": "Higher target than the intake of {pct}% of {gender}",
+    "badgeRunning": "Faster pace than {pct}% of {gender}",
+    "badgeFasting": "{level} — beyond {pct}% of practitioners",
+    "badgeHR": "Lower resting HR than {pct}% of {gender}",
+
+    "axisTDEE": "Daily calories (kcal)",
+    "axisWater": "Daily water (L)",
+    "axisRunning": "Pace (min:sec per km)",
+    "axisFasting": "Daily fasting (hours)",
+    "axisHR": "Resting heart rate (bpm)",
+
+    "ariaTDEE": "Daily calorie burn population histogram for {gender} aged {age}. Your value {value} kcal is in the {category} range, around the {pct}th percentile.",
+    "ariaWater": "Daily water needs population histogram for {gender}. Your value {value} L is in the {category} range, around the {pct}th percentile.",
+    "ariaRunning": "Running pace population histogram for {gender}. Your pace {value} per km is in the {category} range, around the {pct}th percentile.",
+    "ariaFasting": "Fasting duration histogram. Your method fasts {hours} hours daily, {category} level, around the {pct}th percentile.",
+    "ariaHR": "Resting heart rate population histogram for {gender}. Your value {value} bpm is in the {category} range, around the {pct}th percentile.",
+
+    "tableTDEETitle": "Daily calorie ranges by age and sex (kcal)",
+    "tableMacroTitle": "Calorie target ranges by age and sex (kcal)",
+    "tableWaterTitle": "Daily water ranges by sex (L)",
+    "tableRunningTitle": "Pace ranges by sex (min:sec per km)",
+    "tableFastingTitle": "Fasting methods comparison",
+    "tableHRTitle": "Resting heart-rate ranges by sex (bpm)",
+
+    "fastMethodH": "Method",
+    "fastHoursH": "Daily fast",
+    "eatHoursH": "Eating window",
+    "levelH": "Level",
+    "methodName_14_10": "14:10 method",
+    "methodName_16_8": "16:8 method",
+    "methodName_18_6": "18:6 method",
+    "methodName_20_4": "20:4 method",
+    "methodName_omad": "OMAD — one meal a day",
+
+    "imageTDEEAlt": "Illustration of daily calorie burn distribution with people of the same age compared",
+    "imageCaptionTDEE": "Image pending: daily energy comparison",
+    "imageMacroAlt": "Illustration of calorie and macro targets compared with peer distribution",
+    "imageCaptionMacro": "Image pending: macro target comparison",
+    "imageWaterAlt": "Illustration of hydration targets with people and water containers compared",
+    "imageCaptionWater": "Image pending: hydration comparison",
+    "imageRunningAlt": "Illustration of runners with pace levels compared on a track",
+    "imageCaptionRunning": "Image pending: pace comparison",
+    "imageFastingAlt": "Illustration of fasting methods with eating windows compared across a day",
+    "imageCaptionFasting": "Image pending: fasting method comparison",
+    "imageHRAlt": "Illustration of resting heart rate levels with active and sedentary people compared",
+    "imageCaptionHR": "Image pending: resting HR comparison",
+
+    "explainTDEETitle": "How to Read Your Daily Energy Percentile",
+    "explainTDEE": [
+      "The chart compares your estimated daily energy expenditure with adults of the same sex and age band. Because body size, activity and metabolism vary, the distribution is wide: two healthy adults of the same age can legitimately burn several hundred calories apart. Your percentile is simply the share of peers whose estimate is lower — it describes position, not virtue.",
+      "Very Low and Low estimates are typical of small body frames or sedentary routines; Average covers the broad middle where most adults sit; High and Very High usually reflect larger body mass, manual labor, or frequent training. None of these labels means good or bad on its own. A 90th-percentile burn paired with a 30th-percentile intake still leads to weight gain, and a low TDEE is perfectly healthy when matched with proportionate food.",
+      "Use this as a planning anchor. Set intake around the estimate for maintenance, subtract roughly 500 calories per day for fat loss, or add a similar amount for muscle gain. Re-estimate after any substantial change in weight or activity, and remember the figure is an equation output with an error margin around 10% — trends and body response matter more than precision."
+    ],
+    "explainMacroTitle": "How to Read Your Calorie-Target Percentile",
+    "explainMacro": [
+      "The chart compares the calories your plan targets with the adult population of the same age and sex. Cut targets sit on the lower side of the distribution, maintenance around the middle, and muscle-gain targets on the higher side — the percentile confirms your number is a normal, realistic figure rather than an extreme one.",
+      "Very Low targets should be temporary and reserved for short supervised cuts, because long-term aggressive deficits cost muscle and energy; Low supports steady fat loss; Average is the maintenance zone; High and Very High serve deliberate bulking phases or high training volumes. Match the band to the phase, not to personality — the same person moves between bands across the year.",
+      "Protein is the anchor of every plan: roughly 1.6–2.2 g per kg for trained people, with the rest split between fat, kept above the hormone-health floor, and carbs, scaled to fuel training. Run a target for 2–3 weeks, judge by weight trend, performance and hunger, then adjust by 100–200 calories rather than overhauling the whole plan."
+    ],
+    "explainWaterTitle": "How to Read Your Hydration Percentile",
+    "explainWater": [
+      "The chart places your recommended daily intake against the adult distribution for your sex, modeled on the Institute of Medicine adequate-intake references. Men and women differ because water needs scale with body size and lean mass; exercise, climate and diet shift the number further.",
+      "Very Low and Low intakes are common in sedentary routines but often leave a mild deficit; Average covers people who drink to thirst with moderate activity; High and Very High targets apply during long training, heat exposure, or high-protein and high-sodium diets. A higher percentile is not a target to chase — over-drinking beyond thirst can dilute electrolytes, so spread intake rather than forcing volume.",
+      "Practical use: keep a filled bottle in view, start with a glass at each meal, and add roughly half a liter per 30 minutes of exercise. Urine color is a reliable real-time gauge — pale straw means on track. Adjust during illness, travel or altitude, and let thirst plus urine rather than a single number guide you."
+    ],
+    "explainRunningTitle": "How to Read Your Pace Percentile",
+    "explainRunning": [
+      "The chart compares your pace with other runners of your sex, from first-timers to club elites. Pace ability is right-skewed: a large crowd sits in the Beginner and Novice bands, while each step faster contains progressively fewer people. The scale is reversed — lower numbers mean faster running and a higher percentile.",
+      "Beginner covers run-walkers and the first months of training; Novice runners can hold a steady conversational effort; Intermediate runners regularly finish local races; Advanced runners compete for age-group placings; Elite runners operate at federation or pro level. Your band reflects current training background, not potential — most adults move two bands within their first two consistent years.",
+      "Train the band deliberately: beginners gain most from easy-time consistency, intermediates from one weekly speed or threshold session, advanced runners from structured periodization. Judge progress by race results every 8–12 weeks rather than daily GPS fluctuations, and compare against yourself first — weather, hills and fatigue move pace by 20–30 seconds."
+    ],
+    "explainFastingTitle": "How to Read Your Fasting Level",
+    "explainFasting": [
+      "The chart maps your method to the five experience levels used in fasting research and practice. Because methods differ in fasting length rather than population frequency, the percentile indicates experience and difficulty — how few practitioners sustain longer protocols — rather than ranking health.",
+      "Beginner (14:10) is the easiest entry point and already concentrates eating modestly; the Popular 16:8 is the most studied and sustainable default; Intermediate 18:6 suits adapted users; Advanced 20:4 and Expert OMAD demand strong adherence and are unsuitable for hard training without planning. No level is better — the best method is the one you can keep without disrupting sleep, mood or workouts.",
+      "Practical guidance: spend 4–6 weeks per level before advancing, keep protein and vegetables inside the eating window, and watch hydration and electrolytes. Fasting works mainly by simplifying portion control; it is not magic, and training days, pregnancy, illness or a history of disordered eating are reasons to stop and seek professional advice."
+    ],
+    "explainHRTitle": "How to Read Your Resting-Heart-Rate Percentile",
+    "explainHR": [
+      "The chart compares your resting heart rate with the adult population of your sex, using ranges compiled from American Heart Association and Harvard Health references. The scale is reversed: a lower resting rate usually signals a stronger, more efficient heart and therefore a higher percentile.",
+      "Athlete-level rates below 50 are common in endurance training because regular aerobic exercise raises stroke volume; Excellent and Good cover fit and regularly active adults; Average is statistically normal for the general population; High resting rates can result from stress, poor sleep, illness, stimulants, or deconditioning. One reading proves little — what matters is a consistent morning average.",
+      "Measure before getting up after a normal night and track a weekly mean. Aerobic training is the most reliable way to lower it: three to four sessions per week, most in zone 2, with occasional intervals. If a persistent rate above 100, an irregular rhythm, or symptoms accompany it, consult a clinician rather than treating the number as fitness data."
+    ]
+  }
+}

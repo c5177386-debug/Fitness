@@ -1,0 +1,31 @@
+{
+  "metric": "restingHR",
+  "unit": "bpm",
+  "categories": ["athlete", "excellent", "good", "average", "high"],
+  "percentileAnchors": [98, 90, 75, 50, 20, 5],
+  "axis": { "min": 35, "max": 100 },
+  "density": {
+    "male": { "center": 65, "sigma": 11 },
+    "female": { "center": 68, "sigma": 11 }
+  },
+  "thresholds": {
+    "male": [35, 50, 60, 70, 80],
+    "female": [38, 52, 62, 72, 82]
+  },
+  "sources": [
+    {
+      "id": "harvard",
+      "name": "Harvard Health Publishing — All about heart rate: resting, exercise and target heart rates",
+      "shortName": "Harvard Health Publishing, All About Heart Rate",
+      "year": 2023,
+      "url": "https://www.health.harvard.edu/heart-health/all-about-heart-rate-pulse"
+    },
+    {
+      "id": "aha",
+      "name": "American Heart Association — Target Heart Rates Chart",
+      "shortName": "AHA Target Heart Rates",
+      "year": 2022,
+      "url": "https://www.heart.org/en/healthy-living/fitness/fitness-basics/target-heart-rates"
+    }
+  ]
+}

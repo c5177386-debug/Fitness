@@ -1,0 +1,22 @@
+{
+  "metric": "water",
+  "unit": "L",
+  "categories": ["veryLow", "low", "average", "high", "veryHigh"],
+  "percentileAnchors": [3, 20, 50, 80, 97, 99],
+  "multiples": [-1.88, -0.84, 0, 0.84, 1.88],
+  "sigma": 0.55,
+  "axisExtent": 2.4,
+  "sources": [
+    {
+      "id": "iom",
+      "name": "Institute of Medicine (National Academy of Medicine) — Dietary Reference Intakes: total water adequate intake for adults",
+      "shortName": "IOM/NAM Dietary Reference Intakes (total water)",
+      "year": 2005,
+      "url": "https://nap.nationalacademies.org/catalog/10490/dietary-reference-intakes-for-energy-carbohydrate-fiber-fat-fatty-acids-cholesterol-protein-and-amino-acids"
+    }
+  ],
+  "rows": [
+    { "id": "male", "center": 3.2 },
+    { "id": "female", "center": 2.6 }
+  ]
+}

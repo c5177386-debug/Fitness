@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/", "destination": "/zh-CN", "permanent": true }
+  ]
+}

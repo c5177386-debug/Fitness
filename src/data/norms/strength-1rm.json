@@ -1,0 +1,45 @@
+{
+  "metric": "strength1RM",
+  "unit": "lb",
+  "lifts": ["squat", "bench", "deadlift"],
+  "genders": ["male", "female"],
+  "categories": ["untrained", "novice", "intermediate", "advanced", "elite"],
+  "percentileAnchors": [2, 20, 40, 70, 90, 98],
+  "sources": [
+    {
+      "id": "kilgore",
+      "name": "Kilgore L. — strength standards, in Rippetoe M. & Kilgore L., Practical Programming for Strength Training, 3rd edition",
+      "shortName": "Kilgore, Practical Programming 3rd ed.",
+      "year": 2014,
+      "url": "https://www.stronglifts.com/strength-standards"
+    }
+  ],
+  "bwClasses": {
+    "male": [
+      { "max": 114, "squat": [143, 220, 330, 420], "bench": [108, 171, 243, 314], "deadlift": [176, 276, 402, 521] },
+      { "max": 123, "squat": [162, 249, 374, 479], "bench": [119, 188, 268, 347], "deadlift": [199, 311, 453, 588] },
+      { "max": 132, "squat": [179, 276, 414, 530], "bench": [130, 205, 292, 378], "deadlift": [220, 345, 502, 650] },
+      { "max": 148, "squat": [206, 303, 455, 582], "bench": [150, 226, 321, 416], "deadlift": [254, 385, 557, 717] },
+      { "max": 165, "squat": [229, 338, 496, 634], "bench": [163, 244, 347, 450], "deadlift": [282, 419, 605, 777] },
+      { "max": 181, "squat": [246, 363, 532, 679], "bench": [173, 259, 368, 477], "deadlift": [303, 450, 650, 834] },
+      { "max": 198, "squat": [259, 385, 562, 717], "bench": [182, 272, 386, 501], "deadlift": [320, 477, 688, 883] },
+      { "max": 220, "squat": [277, 407, 595, 759], "bench": [195, 288, 409, 529], "deadlift": [341, 504, 725, 929] },
+      { "max": 242, "squat": [293, 424, 622, 793], "bench": [207, 303, 429, 555], "deadlift": [361, 527, 758, 972] },
+      { "max": 275, "squat": [310, 446, 651, 831], "bench": [221, 321, 455, 587], "deadlift": [383, 556, 797, 1021] },
+      { "max": 319, "squat": [330, 473, 688, 881], "bench": [238, 343, 485, 625], "deadlift": [407, 588, 841, 1080] },
+      { "max": null, "squat": [341, 496, 725, 937], "bench": [247, 356, 507, 649], "deadlift": [422, 611, 882, 1141] }
+    ],
+    "female": [
+      { "max": 97, "squat": [81, 130, 193, 247], "bench": [60, 95, 135, 175], "deadlift": [100, 161, 238, 309] },
+      { "max": 105, "squat": [92, 146, 218, 278], "bench": [66, 105, 150, 194], "deadlift": [113, 182, 268, 347] },
+      { "max": 114, "squat": [101, 161, 239, 306], "bench": [72, 114, 163, 212], "deadlift": [125, 200, 294, 382] },
+      { "max": 123, "squat": [111, 177, 263, 336], "bench": [78, 123, 177, 230], "deadlift": [138, 220, 324, 420] },
+      { "max": 132, "squat": [120, 192, 286, 365], "bench": [84, 132, 190, 246], "deadlift": [150, 239, 351, 456] },
+      { "max": 148, "squat": [135, 214, 318, 407], "bench": [93, 146, 210, 272], "deadlift": [169, 267, 393, 509] },
+      { "max": 165, "squat": [150, 232, 346, 442], "bench": [100, 157, 225, 293], "deadlift": [186, 290, 426, 552] },
+      { "max": 181, "squat": [162, 247, 368, 470], "bench": [106, 166, 238, 309], "deadlift": [200, 309, 453, 587] },
+      { "max": 198, "squat": [173, 261, 387, 494], "bench": [112, 174, 249, 324], "deadlift": [213, 326, 476, 617] },
+      { "max": null, "squat": [183, 280, 415, 530], "bench": [119, 184, 264, 342], "deadlift": [226, 349, 510, 661] }
+    ]
+  }
+}
