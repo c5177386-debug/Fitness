@@ -3,6 +3,12 @@
   "redirects": [
     { "source": "/", "destination": "/zh-CN", "permanent": true }
   ],
+  "rewrites": [
+    {
+      "source": "/google451d648a575a0feb.html",
+      "destination": "/api/google451d648a575a0feb.html"
+    }
+  ],
   "headers": [
     {
       "source": "/",
